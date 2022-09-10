@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print string using printf()
+ * main - print string using printf function
  *
- * description: using main function, this programme prints exactly
+ * Description: using main function, this programme prints exactly
  * "with proper grammar, but the outcome is a piece of art,"
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
