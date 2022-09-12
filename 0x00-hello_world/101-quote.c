@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - entry point
@@ -10,14 +11,10 @@
  */
 int main(void)
 {
-	/*Declarations*/
-	int full_name = '- Dora Korpar';
-	char date = "%F";
-	char My_var = "and that piece of art is useful\"";
+	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	/*Statements*/
-	putchar(str(My_var, full_name, date));
-	stderr;
 
-	Return(1);
+	write(2, str1, 59);
+
+	return (1);
 }
