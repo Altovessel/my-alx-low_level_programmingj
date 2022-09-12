@@ -11,13 +11,13 @@
 int main(void)
 {
 	/*Declarations*/
-	char full_name = ' - Dora Korpar';
-	int date = "%F";
-	long char My_var = 'and that piece of art is useful\"';
+	int full_name = '- Dora Korpar';
+	char date = "%F";
+	char My_var = "and that piece of art is useful\"";
 
 	/*Statements*/
 	putchar(str(My_var, full_name, date));
-	stderr
+	stderr;
 
 	Return(1);
 }
