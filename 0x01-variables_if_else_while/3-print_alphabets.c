@@ -9,20 +9,18 @@
  */
 int main(void)
 {
-	char c;
-	char d;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	char ALP[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for
-	(c = 'a';
-	c <= 'z';
-	c++);
-	(d = 'A';
-	d <= 'Z';
-	d++);
+	for (i = 0; i < 26; i++)
+
 	{
-		putchar("The lowercase and uppercase alphabets are :\n");
-		putchar("%c\n", c);
-		putchar("%c\n", d);
+		putchar(alp[i]);
+		putchar(ALP[i]);
 	}
-	return (0);
+
+		putchar('\n');
+
+		return (0);
 }
