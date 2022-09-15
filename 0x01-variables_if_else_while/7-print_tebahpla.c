@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-	char alp[26];
 	int i;
 
 	for (i = 122; i >= 97; i--)
