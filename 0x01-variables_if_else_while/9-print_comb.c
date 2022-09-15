@@ -6,19 +6,16 @@
  */
 int main(void)
 {
-	int i, j;
-
-	for (i = 0; i <= 9; i++)
-	{
-		putchar(i);
-	}
+	int j;
 
 	for (j = 48; j < 58; j++)
 	{
 		putchar(j);
-	}
 
-	putchar(44);
-	putchar(32);
+		if (j != 57)
+
+		putchar(44);
+		putchar(32);
+	}
 	return (0);
 }
