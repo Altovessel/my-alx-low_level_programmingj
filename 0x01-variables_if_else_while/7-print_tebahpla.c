@@ -11,7 +11,7 @@ int main(void)
 	char alp[26];
 	int i;
 
-	for (i = 26; i >= 0; i--)
+	for (i = 122; i >= 97; i--)
 	{
 		putchar(i);
 	}
