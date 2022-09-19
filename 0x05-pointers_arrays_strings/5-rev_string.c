@@ -8,7 +8,7 @@
 
 void rev_string(char *s)
 {
-	"sam" -> "mas"
+	"sam"->"mas"
 
 		char tmp;
 	int i, length1, length2;
@@ -22,8 +22,7 @@ void rev_string(char *s)
 	length2 = length1 - 1;
 	for (i = 0; i <= length1; i++)
 	{
-		"sam" "mas"
-			tmp = s[i];
+		tmp = s[i];
 		s[i] = s[length2];
 		s[length2] = tmp;
 		length2 -= 1;
