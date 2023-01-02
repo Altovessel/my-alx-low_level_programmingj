@@ -4,6 +4,12 @@
 /**
  * mul - this function multiplies two numbers
  * 
- * Return: 0 (Always success)
+ * @a: first number
+ * @b: second number
+ *
+ * Return: multiplication
  */
 int mul(int a, int b)
+{
+	return(a * b);
+}
