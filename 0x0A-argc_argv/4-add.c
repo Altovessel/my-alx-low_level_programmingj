@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+
 /**
  * main - this program adds positive numbers
  * @argc: argment count
@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
         printf("0\n");
     for(i=1; i < argc; i++)
     {
-        if(argv[i] <= 0)
+        if(argv[i] < 1)
             printf("Error\n");
     }
     printf("argv[%d] = %s\n", i, argv[i]);
